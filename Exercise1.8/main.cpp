@@ -10,6 +10,9 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    std::cout<<"/*";
+    std::cout<<"*/";
+    std::cout<</* "*/" */;";  // this was the broken example in the book.
+    std::cout<< /* "*/" /* "/*" */;
     return 0;
 }
